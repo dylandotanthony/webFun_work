@@ -1,0 +1,35 @@
+
+.whole{
+    border-style: solid;
+    border-color: lightgray; 
+    width: 820px;  
+    margin: 50px auto;
+    
+}
+.container{
+
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+
+}
+.user{
+    height: 100px;
+    width: 100px;
+    margin-top: -60px;
+    
+
+}
+.map{
+    width: 20px;
+    height: 32.5px;
+}
+.gear{
+    height: 25px;
+    width: 25px;
+}
+
+.bluetop{
+    height: 100px;
+    background-color: #3287a8;
+}
