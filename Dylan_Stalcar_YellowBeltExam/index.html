@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <!-- Top Nav bar -->  
+        <div class="nav1">
+            <img class="leaf" src="./assets/leaf.png" alt="leaf">
+            <h1 class="logo">EasyBay</h1>
+            <input type="text" placeholder="Search for anything">
+            <button class="btn">Sign in</button>
+            <img onclick="alert('Your cart is empty!')" class="cart" src="./assets/cart-dark.png" alt="cart">
+        </div>
+        <div class="nav2">
+            <!-- Nav bar w/ catergories --> 
+            <ul class="nav-bar">
+                <li><a href="#">Aeonium</a></li>
+                <li><a href="#">Andormischus</a></li>
+                <li><a href="#">Agave</a></li>
+                <li><a href="#">Aloe</a></li>
+                <li><a href="#">Anacampseros</a></li>
+                <li><a href="#">Aristaloe</a></li>
+                <li><a href="#">More...</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h1>Your Source for Serious Succulent Specialties</h1>
+    </div>
+    <div class="middle">
+        <div class="left">
+            <!--  Left column with dynamic photo--> 
+            <div class="left-side">
+                <p>Discover succ-<br>ulent varieties<br>one pot or rack<br>at a time!</p>
+                <div id="sbtn">
+                    <button class="btn2">Discover</button>
+                    <img class="arrow1" src="./assets/arrow-light.png" alt="arrow">
+                </div>    
+                
+            </div>
+            <img onmouseover="setnewimage()" onmouseout="setoldimage()" id="succc1" src="./assets/succulents-1.jpg" alt="succ">
+        </div>
+        <div class="right">
+            <!-- right side w/ 1 phone still --> 
+            <img id="aloe" src="./assets/aloe-m.jpg" alt="">
+            <div class="space">
+                <div class="abtn">
+                    <button class="btn3">Soothing Aloe</button>
+                    <img class="arrow2" src="./assets/arrow-light.png" alt="arrow">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <!-- bottom gallery photos --> 
+        <div class="gallary">
+            <div class="pic">
+                <img id="pic" src="./assets/aeonium-s.jpg" alt="aeonium">
+                <p>Aeonium</p>
+            </div>
+            <div class="pic">
+                <img id="pic" src="./assets/aloe-s.jpg" alt="aloe">
+                <p>Aloe</p>
+            </div>
+            <div class="pic">
+                <img id="pic" src="./assets/cactus-s.jpg" alt="cactus">
+                <p>cactus</p>
+            </div>
+            <div class="pic">
+                <img id="pic" src="./assets/echeveria-s.jpg" alt="echeveria">
+                <p>Echeveria</p>
+            </div>
+            <div class="pic">
+                <img id="pic" src="./assets/sedum-s.jpg" alt="sedum">
+                <p>Sedum</p>
+            </div>
+            <div class="pic">
+                <img id="pic" src="./assets/sempervivum-s.jpg" alt="sempervivum">
+                <p>Sempervivum</p>
+            </div>
+        </div>
+    </div>
+    <!-- cookie alert --> 
+    <div id="alert1">
+        <img src="./assets/alert-dark.png" alt="alert">
+        <p>This site make use of third party cookies, by clicking "I accept" you agree to the<br>terms outlined in our <a id="cookie" href="#">cookie policy</a>.</p>
+        <button onclick="bye()" class="accept">I accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

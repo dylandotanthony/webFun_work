@@ -1,0 +1,22 @@
+h1 {
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+h3 {
+    text-align: right;
+    text-decoration: underline;
+    background-color: deepskyblue;
+    color: block;
+}
+
+.blue {
+    color: aqua;
+}
